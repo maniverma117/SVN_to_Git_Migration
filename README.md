@@ -121,7 +121,7 @@ This command displays the commit history in a graphical format, showing commit h
 This migration process allows you to easily convert an SVN repository to Git using Docker, `svnadmin`, and `git svn`. By following these steps, you can efficiently migrate your project from SVN to Git while preserving the commit history.
 ```
 
-### Key Points:
+Key Points:
 1. Docker: Runs a container that includes necessary tools.
 2. SVN Setup: Creates and loads data into an SVN repository using `svnadmin`.
 3. SVN Verification: Commands to check the repository's info, history, and contents.
