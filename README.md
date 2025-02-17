@@ -13,7 +13,6 @@ This guide provides detailed instructions for migrating an SVN repository to Git
 
 The migration process starts by running a Docker container that includes all necessary tools for SVN to Git migration. This container runs an interactive bash shell.
 
-```bash
 docker run -itd maniverma/svn-to-git-migrator:v1 bash
 ```
 
