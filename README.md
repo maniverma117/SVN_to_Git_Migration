@@ -3,7 +3,7 @@
 ```markdown
 This guide provides detailed instructions for migrating an SVN repository to Git using Docker and `git svn`. It covers the following steps:
 
-1. **Running Docker Container for SVN to Git Migration**  
+1. Running Docker Container for SVN to Git Migration
 2. **Setting Up SVN Repository**  
 3. **Loading Data into SVN Repository**  
 4. **Cloning SVN Repository into Git**  
