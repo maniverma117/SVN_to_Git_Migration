@@ -4,10 +4,10 @@
 This guide provides detailed instructions for migrating an SVN repository to Git using Docker and `git svn`. It covers the following steps:
 
 1. Running Docker Container for SVN to Git Migration
-2. **Setting Up SVN Repository**  
-3. **Loading Data into SVN Repository**  
-4. **Cloning SVN Repository into Git**  
-5. **Viewing Git Commit History**
+2. Setting Up SVN Repository
+3. Loading Data into SVN Repository
+4. Cloning SVN Repository into Git 
+5. Viewing Git Commit History
 
 ## 1. Run Docker Container for SVN to Git Migration
 
@@ -122,10 +122,9 @@ This migration process allows you to easily convert an SVN repository to Git usi
 ```
 
 ### Key Points:
-1. **Docker**: Runs a container that includes necessary tools.
-2. **SVN Setup**: Creates and loads data into an SVN repository using `svnadmin`.
-3. **SVN Verification**: Commands to check the repository's info, history, and contents.
-4. **Git Cloning**: Uses `git svn clone` to convert the SVN repository into a Git repository.
-5. **Git Log**: Displays the commit history in a graphical format.
+1. Docker: Runs a container that includes necessary tools.
+2. SVN Setup: Creates and loads data into an SVN repository using `svnadmin`.
+3. SVN Verification: Commands to check the repository's info, history, and contents.
+4. Git Cloning: Uses `git svn clone` to convert the SVN repository into a Git repository.
+5. Git Log: Displays the commit history in a graphical format.
 
-This `README.md` is now ready to guide anyone through the migration process. Let me know if you'd like to add or modify anything!
